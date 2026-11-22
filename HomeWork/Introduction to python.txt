@@ -1,0 +1,90 @@
+
+1
+create and print variables 
+name
+age
+city
+
+2. Create and Print Variables
+
+a. Create variables to store:
+
+Your favorite color
+Your favorite food
+Your favorite movie
+
+b. Print them in this format:
+
+My favorite color is Blue
+My favorite food is Pizza
+My favorite movie is Avatar
+
+Try printing the information using multiple values inside print().
+
+3. Experiment with sep
+Create three variables:
+
+first = "Python"
+second = "is"
+third = "Easy"
+
+Print them so that the output is:
+
+Python---is---Easy
+
+Condition: Use sep inside the print() function.
+
+
+4. Student Profile
+Create variables for:
+
+name
+age
+course
+college
+city
+Print the information in one print() statement so that the output looks like:
+
+Name: Pranit | 20 | Python | ABC College | Mumbai
+
+Condition: Use sep to create the | separators.
+
+
+5. Create an Output Using end
+Create the following variables:
+
+first_name = "Pranit"
+last_name = "Gupte"
+
+Write Python code that produces exactly:
+
+My name is Pranit Gupte
+I am learning Python
+Python is interesting
+
+Conditions:
+
+Use end at least once.
+Use variables for the first and last names.
+Do not write the entire first line as one fixed string.
+
+
+6. Variable Naming Challenge
+Look at the following variable names:
+
+name
+2name
+first_name
+first name
+student123
+class
+my-name
+_age
+total_cost
+
+Task:
+
+Identify which names are valid Python variable names.
+Identify which names are invalid.
+For every invalid name, write a corrected version.
+Then create variables using three of the valid names and print their values.

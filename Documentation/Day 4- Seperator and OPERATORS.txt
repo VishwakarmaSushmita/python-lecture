@@ -1,0 +1,139 @@
+Seperator: In Python multiple values are by default separated by space in output.
+To change separator sep keyword is used. 
+sep: Seperator is used to separate the values with a specific character
+print('My', 'name is', firstName, sep="_")
+o/p: My_name_is_Sushmita
+
+# By default every print statement ends with "\n".
+# We can change this by providing Eg : print( "some data" ,end = "some charachter" )
+
+print('My name is', end = "****" )
+print(firstName)
+
+
+## OPERATORS IN PYTHON ## chapter 3
+
+Operators in python are special symbols that perform operations on variables and value(operands).
+Operators are used to manipulate data, perform calculations, compare values and help to control the flow of your program.
+
+Operators are classified as:
+
+## ARITHMETIC OPERATORS ##
+
++: Addition (e.g., 5 + 3 equals 8)
+print(5+3)
+
+-: Subtraction (e.g., 10 - 2 equals 8)
+print(10-2)
+
+*: Multiplication (e.g., 4 * 5 equals 20)
+print(4*5)
+
+/: Division (e.g., 12 / 3 equals 4.0, returns a float by default)
+print("D :",5/2)
+
+//: Floor division (e.g., 5 // 2 equals 2) (integer part)2 .5(decimal part). It returns decimal part
+print("FD :",16//3)
+
+%: Modulo (remainder after division) (e.g., 11 % 3 equals 2)
+print(11%3)
+
+**: Power (x to the power of y) (e.g., 2 ** 3 equals 8)
+print("Ex",3**2)
+
+## ASSIGNMENT OPERATOR ##
+
+Assignment is used to store whatever is on RHS in variable on LHS
+# RHS can have :
+
+    # a. A Value(literal)
+    
+x = 11
+print('x = ', x)
+
+    # b. A Variable
+y = x
+print('y = ',y)
+
+    # c. An Expression
+
+z = x + y
+print('z = ', z)
+
+Home work :
+What is :
+a=10
+
+1. a += 5 : a = a + 5
+2. a -= 5 
+3. a *= 5 
+4. a /= 5 
+"""
+
+
+## COMPARISON OPERATOR ##
+
+# Comparison operators are used to compare LHS with RHS
+# Comparison operators return boolean result(true or false)
+# These operators are used to create conditions for DMS(Decision Making statement)
+
+    print('Equal : ',5==5)
+
+    print('Not Equal :',7!=3)
+
+    print('Greater than :',12>8)
+
+    print('Less than', 2<10)
+
+    print('Greater than or equal to : ', 15>=5)
+
+    print('less than or equal to : ', 3<=7)
+
+## LOGICAL OPERATORS ##
+
+# Logical operators are used to perform logical operations(used in DMS)
+# Logical operators use conditions as operands and perform operations on these coditions
+    print('and : ',5>2 and 6<8 and 17>9)
+
+    print('or : ', 0.5>2 or 6>8)
+
+    print ('not : ', not (5<2 or 6<8))
+
+## IDENTITY OPERATORS ##
+
+# These operators check if two objects/values are located at same memory location.
+
+# Two variables having same value is not same as one variable equal to another
+# variable
+
+# When two variables have two values(same or different) meaning they refer
+# to two values which are located at two different locations
+
+# When one variable equals to another then two variables refer to same value
+# located at some memory location.
+
+# is: Returns True if two variables refer to the same object(or value). 
+a = [1, 2, 3]
+b = a
+print(a is b) # True
+
+# is not: Returns True if two variables refer to different objects(or value)
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a is not b) # True
+
+#Identity Operators
+# is not: Returns True if two variables refer to different objects(or value)
+a = 10
+b = 20
+print("a is not b :", a is not b)
+
+# is: Returns True if two variables refer to the same object(or value).
+c = a
+
+print("c is a :",c is a)
+
+
+
+
+youtube.com/watch?v=GWYhtksrmhE&t=7 - Do watch this for coding practices. very interesting

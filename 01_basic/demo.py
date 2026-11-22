@@ -2,6 +2,7 @@ import keyword
 
 print("Hello!")
 
+#Print Python Keywords
 print(keyword.kwlist)
 print(keyword.iskeyword("if"))
 print(keyword.iskeyword("If"))
@@ -25,7 +26,7 @@ my_dict={
     "age":30,
     "salary":50000.50
 } 
-
+#type is used to check the data type of a variable
 print(name,type(name))
 print(age,type(age))
 print(salary,type(salary))

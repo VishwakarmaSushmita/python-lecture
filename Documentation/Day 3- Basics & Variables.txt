@@ -1,0 +1,94 @@
+Features of Python
+	
+1. General-purpose programming language
+	Python can be used to develop many different types of applications, such as websites, desktop software, automation scripts, games, data analysis, and AI applications. It is not limited to one particular task.
+	
+2. High-level language
+	Python is a high-level programming language, meaning its syntax is closer to human language and easier to understand than low-level languages such as Assembly. The programmer does not need to manage hardware details like memory addresses directly.
+	
+3. Open-Source
+	Python is open-source, so its source code is freely available. Anyone can use Python, study how it works, modify it, and contribute to its development.
+	
+4. Cross-platform compatible
+	Python programs can run on different operating systems, such as Windows, macOS, and Linux, usually without changing the program significantly.
+	
+5. Cross-language integration
+	Python can work together with programs and libraries written in other programming languages such as C, C++, Java, and .NET. This allows developers to use Python along with other technologies when needed.
+	
+6. Portable
+	Python programs are generally portable, meaning the same Python code can be moved from one computer or operating system to another with little or no modification, provided the required Python environment and libraries are available.
+	
+7. Interpreted language
+	Python code is executed by the Python interpreter rather than being compiled directly into machine code in the traditional way first. This makes testing and running programs convenient and supports interactive programming.
+	
+8. Object-Oriented
+	Python supports object-oriented programming (OOP). Programs can be organized using classes and objects, which helps developers structure large and complex applications.
+	
+9. Provides built-in data structures
+	Python provides useful data structures such as lists, tuples, sets, and dictionaries. These make it easier to store, organize, and manipulate data.
+	
+10. Dynamically Typed
+	In Python, you don't have to specify a variable's data type when declaring it. Python determines the type automatically at runtime.
+	Popular IDEs:	
+        1. Python IDLE
+        2. Pycharm
+        3. Jupyter Notebook
+        4. Spyder
+        5. VS Code
+        6. Atom
+
+How to install python IDE:
+    1. check if you alredy have python :
+        a. start -> type cmd -> run as administrator -> check if it shows System32
+        b. type -> python --version
+    2. go to https://www.python.org/ -> downloads -> get the standalone installer for Python 3.15.2
+    3. open installer by right click -> run as administrator -> click on "add python.exe to PATH" -> click on install now
+
+Perform your first task using Python IDE
+    1. start -> check for python 3.15.2 folder -> click on IDLE -> file -> new file
+    2. Write code print("hello World") -> run -> run module -> ok -> give a name
+
+3. save on desktop
+Practice
+name = 'Pranit' # variable initialization
+age = 33
+city = 'Thane'
+
+print(name)
+print(age)
+print(city)
+
+## ASSIGNING VALUES TO VARIABLE
+
+# Single Value:
+x = 10
+firstName = "Pranit"
+
+# Multiple Values:
+x,y,z = 10,20,30
+
+print("x : ", x)
+print("y : ", y)
+print("z : ", z)
+
+a = b = c = 100
+print("a : ", a)
+print("b : ", b)
+print("c : ", c)
+
+## print() FUNCTION ##
+
+# print() function is used to show output to console.
+# print() function can print sigle value or multiple values.
+# multiple values are separated by comma inside print function.
+
+print('hello world & my name is pranit') # single value -> but fixed value
+print(firstName) # single value
+
+print('My','name is',firstName) #multiple values
+
+type: type is used to check the data type of a variable
+
+Interview Questions:
+    1. Features of Python.
+    2. Why prefer Python over other language.

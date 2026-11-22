@@ -1,0 +1,304 @@
+Features of Python
+	
+1. General-purpose programming language
+
+	Python can be used to develop many different types of applications, such as websites, desktop software, automation scripts, games, data analysis, and AI applications. It is not limited to one particular task.
+	
+2. High-level language
+
+	Python is a high-level programming language, meaning its syntax is closer to human language and easier to understand than low-level languages such as Assembly. The programmer does not need to manage hardware details like memory addresses directly.
+	
+3. Open-Source
+
+	Python is open-source, so its source code is freely available. Anyone can use Python, study how it works, modify it, and contribute to its development.
+	
+4. Cross-platform compatible
+
+	Python programs can run on different operating systems, such as Windows, macOS, and Linux, usually without changing the program significantly.
+	
+5. Cross-language integration
+
+	Python can work together with programs and libraries written in other programming languages such as C, C++, Java, and .NET. This allows developers to use Python along with other technologies when needed.
+	
+6. Portable
+
+	Python programs are generally portable, meaning the same Python code can be moved from one computer or operating system to another with little or no modification, provided the required Python environment and libraries are available.
+	
+7. Interpreted language
+
+	Python code is executed by the Python interpreter rather than being compiled directly into machine code in the traditional way first. This makes testing and running programs convenient and supports interactive programming.
+	
+8. Object-Oriented
+
+	Python supports object-oriented programming (OOP). Programs can be organized using classes and objects, which helps developers structure large and complex applications.
+	
+9. Provides built-in data structures
+
+	Python provides useful data structures such as lists, tuples, sets, and dictionaries. These make it easier to store, organize, and manipulate data.
+	
+10. Dynamically Typed
+
+	In Python, you don't have to specify a variable's data type when declaring it. Python determines the type automatically at runtime.
+
+	Popular IDEs
+	
+1. Python IDLE
+
+2. Pycharm
+
+3. Jupyter Notebook
+
+4. Spyder
+
+5. VS Code
+
+6. Atom
+
+How to install python IDE:
+1. check if you alredy have python :
+
+	a. start -> type cmd -> run as administrator -> check if it shows System32
+	
+	b. type -> python --version
+
+2. go to https://www.python.org/ -> downloads -> get the standalone installer for Python 3.15.2
+
+3. open installer by right click -> run as administrator -> click on "add python.exe to PATH" -> click on install now
+
+Perform your first task using Python IDE
+1. start -> check for python 3.15.2 folder -> click on IDLE -> file -> new file
+
+2. Write code print("hello World") -> run -> run module -> ok -> give a name
+
+3. save on desktop
+Practice
+name = 'Pranit' # variable initialization
+age = 33
+city = 'Thane'
+
+print(name)
+print(age)
+print(city)
+
+## ASSIGNING VALUES TO VARIABLE
+
+# Single Value :
+x = 10
+firstName = "Pranit"
+
+# Multiple Values :
+x,y,z = 10,20,30
+
+print("x : ", x)
+print("y : ", y)
+print("z : ", z)
+
+#Single value to multiple variable
+a = b = c = 100
+print("a : ", a)
+print("b : ", b)
+print("c : ", c)
+
+Day4:
+## print() FUNCTION ##
+
+# print() function is used to show output to console.
+# print() function can print sigle value or multiple values.
+# multiple values are separated by comma inside print function.
+
+print('hello world & my name is pranit') # single value -> but fixed value
+print(firstName) # single value
+
+print('My','name is',firstName) #multiple values
+# in multiple values are by default separated by space in output.
+
+print('My', 'name is', firstName, sep="_")
+
+
+# By default every print statement ends with "\n".
+# We can change this by providing Eg : print( "some data" ,end = "some charachter" )
+
+print('My name is', end = "****" )
+print(firstName)
+
+age = 10
+print("Type age varible : ", type(age))
+
+percentage = 10.3
+print("Type of percentage variable : ", type(percentage))
+
+cmplx = -10.3 + 5j
+print("Type of cmplx variable : ", type(cmplx))
+
+name = '''pranit'''
+print("Type of name variable : ", type(name))
+
+e = True
+print("e : ", type(e))
+
+
+aVariable = None
+
+## OPERATORS IN PYTHON ## chapter 3
+
+# operators in python are special symbols that perform -
+# operations on variables and value(operands).
+
+# operators are used to manipulate data, perform calculations, compare values -
+# and help to control the flow of your program.
+
+# Operators are classified as
+
+## ARITHMETIC OPERATORS ##
+
+# +: Addition (e.g., 5 + 3 equals 8)
+print(5+3)
+
+# -: Subtraction (e.g., 10 - 2 equals 8)
+print(10-2)
+
+# *: Multiplication (e.g., 4 * 5 equals 20)
+print(4*5)
+
+# /: Division (e.g., 12 / 3 equals 4.0, returns a float by default)
+print("D :",5/2)
+
+# //: Floor division (e.g., 5 // 2 equals 2) (integer part)2 .5(decimal part)
+print("FD :",16//3)
+
+# %: Modulo (remainder after division) (e.g., 11 % 3 equals 2)
+print(11%3)
+
+# **: Power (x to the power of y) (e.g., 2 ** 3 equals 8)
+print("Ex",3**2)
+
+## ASSIGNMENT OPERATOR ##
+
+# Assignment is used to store whatever is on RHS in variable on LHS
+
+# RHS can have :
+
+    # a. A Value(literal)
+    
+x = 11
+print('x = ', x)
+
+    # b. A Variable
+y = x
+print('y = ',y)
+
+    # c. An Expression
+
+z = x + y
+print('z = ', z)
+
+Home work :
+What is :
+a=10
+
+1. a += 5 : a = a + 5
+2. a -= 5 
+3. a *= 5 
+4. a /= 5 
+"""
+
+
+## COMPARISON OPERATOR ##
+
+# Comparison operators are used to compare LHS with RHS
+# Comparison operators return boolean result(true or false)
+# These operators are used to create conditions for DMS
+
+## LOGICAL OPERATORS ##
+
+# Logical operators are used to perform logical operations(used in DMS)
+# Logical operators use conditions as operands and perform operations on these
+# coditions
+
+## IDENTITY OPERATORS ##
+
+# These operators check if two objects/values are located at same memory location.
+
+# Two variables having same value is not same as one variable equal to another
+# variable
+
+# When two variables have two values(same or different) meaning they refer
+# to two values which are located at two different locations
+
+# When one variable equals to another then two variables refer to same value
+# located at some memory location.
+
+# is: Returns True if two variables refer to the same object(or value). 
+a = [1, 2, 3]
+b = a
+print(a is b) # True
+
+# is not: Returns True if two variables refer to different objects(or value)
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a is not b) # True
+
+x = 11
+print('x = ', x)
+
+y = x
+print('y = ',y)
+
+z = x + y
+print('z = ', z)
+
+
+print('Equal : ',5==5)
+
+print('Not Equal :',7!=3)
+
+print('Greater than :',12>8)
+
+print('Less than', 2<10)
+
+print('Greater than or equal to : ', 15>=5)
+
+print('less than or equal to : ', 3<=7)
+
+print('and : ',5>2 and 6<8 and 17>9)
+
+print('or : ', 0.5>2 or 6>8)
+
+#Identity Operators
+# is not: Returns True if two variables refer to different objects(or value)
+a = 10
+b = 20
+print("a is not b :", a is not b)
+
+# is: Returns True if two variables refer to the same object(or value).
+c = a
+
+print("c is a :",c is a)
+
+
+
+
+youtube.com/watch?v=GWYhtksrmhE&t=7 - Do watch this for coding practices. very interesting
+
+# WHY INDENTATION IS IMPORTANT
+
+# indentation in python marks the block of code similar to { } in other -
+# languages.
+# we have main block, if block, else block, while block, for block, etc.
+# incorrect indentation will lead to an error.
+'''
+
+# type casting -> process of converting one data type into another
+
+# age = 21
+
+age = input('Enter your age : \n Answer : ')
+
+print(type(age))
+age = int(age)
+print(type(age))
+if age >= 18 :
+    # if block starts
+    print("You are eligible to vote.") # check for indentation
+    print("Do come for voting in next election")
+    # if block ends
